@@ -1,0 +1,11 @@
+<section class="container" id="settings-container" style="display:none;">
+    <h2>Settings</h2>
+    <form id="settings-form">
+        <label for="change-password">Change Password:</label>
+        <input type="password" id="change-password" placeholder="New Password" required><br>
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" placeholder="Confirm New Password" required><br>
+        <input type="button" id="save-settings-button" value="Save Settings" onclick="saveSettings()">
+        <input type="button" id="back-settings-button" value="Back to Dashboard" onclick="showContainer('dashboard-container')">
+    </form>
+</section>
